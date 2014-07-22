@@ -27,8 +27,6 @@ namespace Gst
 
 _WRAP_ENUM(CapsIntersectMode, GstCapsIntersectMode, NO_GTYPE)
 
-struct Structure;
-
 /** A class that describes sets of media formats.
  * Caps (capabilities) are lightweight objects describing media formats. They
  * are composed of an array of Gst::Structure.
