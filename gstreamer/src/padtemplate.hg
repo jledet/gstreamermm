@@ -144,6 +144,7 @@ struct StaticPadTemplateTraits
 
   static void    release_c_type (CType   ptr)
   {
+    (void)ptr;
   }
 };
 #endif //DOXYGEN_SHOULD_SKIP_THIS
